@@ -88,7 +88,7 @@ def main():
 
             print()
             print(f"Processing '{selected_file.name}'...")
-            print()
+            
 
             analyzer = WordAnalyzer(str(selected_file))
 
@@ -96,7 +96,6 @@ def main():
                 analyzer.print_report()
 
         else:
-            print()
             print("Invalid choice. Please select from 1-5.")
 
         print()
